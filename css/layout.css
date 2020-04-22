@@ -1,0 +1,256 @@
+@charset "utf-8";
+
+/*
+CSS Layout
+
+DaveWinzig.com
+Portfolio for Dave Winzig
+
+Created: 4/21/2020
+*/
+
+/* --- Global --- */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	font-size: calc(.5em + .9vw);
+}
+
+body {
+
+	/* --- Layout --- */
+	margin: 0;
+	padding: 0;
+
+	/* --- Typography ---*/
+
+	/* --- Style ---*/
+
+	background-color: white;
+
+
+
+}
+
+h1, h2 {
+
+	/* --- Style ---*/
+	text-align: center;
+
+}
+
+a {
+	/* --- Style ---*/
+	text-decoration: none;
+	color: white;
+}
+ 
+
+/* --- Local --- */
+
+/* --- Logo --- */
+div.logo {
+
+	/* --- Layout ---*/
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+
+	/* --- Typography ---*/
+	
+
+    /* --- Style ---*/
+
+}
+
+div.logo {
+
+	/* --- Layout ---*/
+	padding: .15em .5em .15em .15em;
+	margin: .25em 0 0 0;
+
+	/* --- Typography ---*/
+	font-family: 'Raleway', serif;
+	font-size: 4em;
+
+    /* --- Style ---*/
+    background-color: black;
+	color: white;
+	letter-spacing: -.25em;
+	mix-blend-mode: multiply;
+}
+
+/* --- Header --- */
+
+section {
+
+	width: 100%;
+    padding: 0;
+    margin: 0;
+    display: table;
+
+    max-width: none;
+    background-color: rgba(252, 118, 106, .75) ;
+    height: 100vh;
+
+  
+}
+
+section:nth-of-type(2n) {
+    background-color: rgba(91, 132, 177, .75);
+ }
+
+
+section > div.width-manager {
+
+	/* --- Layout ---*/
+	display: table;
+	height: 100vh;
+	width: 65vw;
+	margin: 0 auto;
+	padding: 0;
+
+	/* --- Style ---*/
+
+}
+
+section > div.width-manager > div.content {
+
+	/* --- Layout ---*/
+	display: table-cell;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+
+
+	/* --- Style ---*/
+    vertical-align: middle;
+    text-align: center;
+}
+
+section > div.width-manager > div.content > h1 {
+
+	/* --- Layout ---*/
+	margin: 5vh 0vh;
+
+	/* --- Typography ---*/
+	font-family: 'Roboto', serif;
+	font-size: 4em;
+	font-weight: 900;
+
+	/* --- Style ---*/
+
+}
+
+section > div.width-manager > div.content > h2 {
+
+	/* --- Layout ---*/
+	margin: 5vh 0vh;
+
+	/* --- Typography ---*/
+	font-family: 'Roboto', serif;
+	font-size: 3em;
+	font-weight: 700;
+
+	/* --- Style ---*/
+
+}
+
+section> div.width-manager > div.content > p {
+
+	/* --- Layout ---*/
+
+	/* --- Typography ---*/
+	font-family: 'Roboto Slab', serif;
+	font-size: 2em;
+	font-weight: normal;
+
+	/* --- Style ---*/
+
+}
+
+section > div.width-manager > div.content > img {
+
+	 /* --- Layout ---*/
+	 width: 20vw;
+	 margin: 5vh;
+
+	 /* --- Style ---*/
+	 border-radius: 10px;
+}
+
+
+/* --- Navigation --- */
+
+nav {
+
+	/* --- Layout ---*/
+	display: block;
+	margin: 0 0 0 0;
+	position: fixed;
+	top: 50%;
+	left: 0;
+
+	/* --- Typography ---*/
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+
+	/* --- Style ---*/
+	text-transform: uppercase;
+	transform: translate(0, -50%);
+
+}
+
+
+nav > ul {
+
+	/* --- Layout ---*/
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+
+	/* --- Typography ---*/
+
+	/* --- Style ---*/
+
+
+}
+
+nav ul li {
+
+	/* --- Layout ---*/
+	display: inline-block;
+	float: left;
+	clear: left;
+	margin: 0 0 10px 0 ;
+
+	/* --- Typography ---*/
+	text-align: left;
+
+	/* --- Style ---*/
+	color: white;
+	background-color: rgba(0, 0, 0, .5);
+
+}
+
+nav > ul > li > a > img {
+
+	/* --- Layout ---*/
+	width: .75em;
+	margin: 0 5px;
+
+	
+	/* --- Style ---*/
+	filter: invert();
+
+
+}
