@@ -24,4 +24,10 @@ audio, video {
 ::cue {
 	background: transparent;
 	text-shadow: black 1px 1px 2px;
+	color: rgb(255,177,66);
+	font: 1.2em sans-serif;
+}
+
+::cue(.Title) {
+	font: 2em serif; 
 }
